@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NewsLetter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" class="logo-image">
+        </div>
+    </header>
+            <nav>
+                <a href="">Home</a>
+                <a href="about.html" >About</a>
+                <a href="specification.html">Specification</a>
+                <a href="contact.html" >Contact us</a>
+            </nav>
+            
+            
+          
+
+            <div class="newsletter-signup">
+                <h2>Sign up for our College Event Newsletter</h2>
+                <form id="newsletterForm">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+              
+</body>
+</html>
+
+<script>
+    const form = document.getElementById('newsletterForm');
+  
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+  
+      if (!name || !email || !isValidEmail(email)) {
+        alert('Please fill in all fields with valid information.');
+      } else {
+        // Proceed with form submission or AJAX call to submit data to the server.
+        // You can also add an API call here to store the user data on the server.
+        alert('Thank you for subscribing!');
+        form.reset();
+      }
+    });
+  
+    // Function to validate email using regular expression
+    function isValidEmail(email) {
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailPattern.test(email);
+    }
+  </script>
+  

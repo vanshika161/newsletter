@@ -1,0 +1,62 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: rgb(3, 3, 85);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Specifications section styles */
+#specifications {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#specifications h2 {
+  color: rgb(3, 3, 85);
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#specifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+#specifications li {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+#specifications li:before {
+  content: "\2022";
+  color: #007bff;
+  margin-right: 10px;
+}
+
+/* Add more attractive styles here as needed */
+
+  

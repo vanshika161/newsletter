@@ -1,0 +1,144 @@
+/* Reset default margin and padding for all elements */
+* {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+ }
+ 
+ /* Styling for the header section */
+ header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #333;
+   color: #fff;
+   padding: 15px;
+ }
+ 
+ .header-content {
+   
+ }
+ .logo-image {
+  width: 50px; /* You can adjust the width as needed */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+ 
+ header h2 {
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+ 
+ nav {
+  display: flex;
+  justify-content: flex-end;
+  
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+ }
+ 
+ nav a {
+   color: #fff;
+   text-decoration: none;
+   margin-right: 15px;
+ }
+ 
+ nav a:hover {
+   text-decoration: underline;
+ }
+ 
+ .contact {
+   margin-right: 15px;
+   color: #fff;
+   font-weight: bold;
+ }
+ 
+
+ /* Styling for the signup option box */
+ body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.newsletter-signup {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .newsletter-signup {
+    max-width: 100%;
+  }
+}
+
+ .register-block label {
+   margin-bottom: 5px;
+ }
+ 
+ .register-block input {
+   padding: 5px;
+   margin-bottom: 10px;
+ }
+ 
+ .register-block button {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   font-weight: bold;
+ }
+ 
+ .register-block button:hover {
+   background-color: #555;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
